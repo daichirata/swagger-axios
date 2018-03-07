@@ -1,0 +1,36 @@
+{
+  "name": "swagger-axios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "bin/swagger-axios.js --file example/petstore.v2.json > example/petstore.v2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daichirata/swagger-axios.git"
+  },
+  "keywords": [
+    "swagger",
+    "axios"
+  ],
+  "author": "Daichi Hirata",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daichirata/swagger-axios/issues"
+  },
+  "homepage": "https://github.com/daichirata/swagger-axios#readme",
+  "devDependencies": {
+    "prettier": "^1.11.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "commander": "^2.14.1",
+    "debug": "^3.1.0",
+    "js-beautify": "^1.7.5",
+    "js-yaml": "^3.11.0",
+    "lodash": "^4.17.5",
+    "lodash.template": "^4.4.0"
+  }
+}
