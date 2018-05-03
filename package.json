@@ -1,6 +1,6 @@
 {
-  "name": "swagger-axios",
-  "version": "1.0.0",
+  "name": "@daichirata/swagger-axios",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
